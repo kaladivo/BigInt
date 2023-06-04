@@ -16,8 +16,4 @@ Pod::Spec.new do |s|
   s.swift_version = '5.7'
   s.source_files  = "Sources/BigInt/**/*.swift"
   
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/**/*.swift'
-    test_spec.dependency 'BigInt'
-  end
 end
